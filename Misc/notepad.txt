@@ -1,0 +1,54 @@
+create table CUSTOMERS(
+EmployeeID int not null auto_increment,
+FirstName char(15) not null,
+LastName char(15) not null,
+DateOfBirth varchar(10) not null,
+Gender char(20) not null,
+Demographic char(20) not null,
+Username varchar(15) not null,
+Password varchar(15) not null,
+PRIMARY KEY (EmployeeID));
+
+INSERT INTO CUSTOMERS VALUE(NULL, 'Brendan', 'Burdick', '1995-06-13', 'Male', 'Caucasian', 'bburdick', 'password');
+
+#infoPanelWrapper {
+      width: 30%;
+      height: 90%;
+      border-radius: 5px;
+      color: red;
+      display: inline-block;
+      margin: 20px 20px;
+      opacity: 0.95;
+      position: relative;
+}
+
+#infoPanelTop {
+      height: 50%;
+      width: 100%;
+      position: absolute;
+}
+
+#infoPanelBottom {
+      height: 50%;
+      width: 100%;
+      position: absolute;
+      top: 50%;
+}
+
+#infoPanelBottom img, #infoPanelTop img {
+      width: 100%;
+      height: auto;
+      display: block;
+      padding-top: 10%;
+      position: absolute;
+      opacity: 1;
+}
+
+#infoPanelBottom2 img {
+      width: 100%;
+      height: auto;
+      display: block;
+      padding-top: 10%;
+      position: absolute;
+      opacity: 1;
+}

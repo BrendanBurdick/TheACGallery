@@ -1,0 +1,185 @@
+html {
+	background-image: url("./images/bg.jpg");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+#landingPageDiv {
+	padding: 15px 0px;
+	background-color: white;
+	width: 50%;
+	height: 25%;
+	opacity: 0.75;
+	margin: 200px auto;
+	border-radius: 10px;
+}
+
+#landingPageDiv h2 {
+	text-align: center;
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 30px;
+}
+
+#landingPageDiv button {
+	display: block;
+	margin: 0px auto;
+}
+
+#mainHomePageContentWrapper {
+	margin: 20px auto 0px;
+	width: 95%;
+	height: 85%;
+	text-align: center;
+}
+
+#infoPanelWrapper {
+	width: 30%;
+	height: 90%;
+	border-radius: 5px;
+	background-color: white;
+	color: black;
+	display: inline-block;
+	margin: 20px 20px;
+	opacity: 0.96;
+	position: relative;
+}
+
+#infoPanelTop {
+	height: 50%;
+	width: 100%;
+	position: absolute;
+}
+
+#infoPanelBottom, #infoPanelBottom2 {
+	height: 50%;
+	width: 100%;
+	position: absolute;
+	top: 50%;
+}
+
+#infoPanelTop img {
+	width: 95%;
+	height: auto;
+	display: block;
+	opacity: 1;
+	border-radius: 20px;
+	margin: 25px auto 0px;
+}
+
+#infoPanelBottom img{
+	width: 95%;
+	height: auto;
+	display: block;
+	opacity: 1;
+	border-radius: 20px;
+	margin: 20px auto 0px;
+}
+
+#infoPanelBottom2 img{
+	width: 95%;
+	display: block;
+	opacity: 1;
+	border-radius: 20px;
+	margin: 10px auto 0px;
+}
+
+/*
+	BUTTON DEFINITIONS
+*/
+
+.navBarButton {
+    background-color: white;
+    border: none;
+    color: black;
+    text-align: center;
+    font-size: 16px;
+    -webkit-transition-duration: 0.4s; /* Safari */
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.navBarButton:hover {
+    background-color: orange; 
+    color: black;
+}
+
+.button {
+  display: inline-block;
+  border-radius: 4px;
+  background-color: white;
+  border: none;
+  color: black;
+  text-align: center;
+  font-size: 28px;
+  padding: 20px;
+  width: 200px;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.button span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.button span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.button:hover span {
+  padding-right: 25px;
+  color: black;
+}
+
+.button:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+/*
+	Navigation bar definitions.
+*/
+
+#navbar {
+	width: 100%;
+	height: 10%;
+	background-color: white;
+}
+
+#navbar img {
+	float: left;
+	width: 3%;
+	height: auto;
+	display: block;
+	padding: 15px 0px 0px 15px;
+}
+
+#navText {
+	font-family: Futura, "Trebuchet MS", Arial, sans-serif;
+	font-size: 16px;
+	padding: 35px 0 0 10px;
+	display: inline-block;
+}
+
+nav {
+	float: right;
+	height: 100%;
+	width: 40%;
+	margin: 0px auto;
+	text-align: center;
+	padding: 13px 0 0 0;
+}
+
+#navbar nav button {
+	width: 24%;
+	padding: 20px;
+}
+
